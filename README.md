@@ -1,9 +1,9 @@
 
-# Additional Palettes for MiSTer's Gameboy core
+# Additional Palettes for MiSTer's Game Boy ore.
 
-This is a Database that will help you install a few extra palettes for your Gameboy core in [MiSTer FPGA](https://github.com/MiSTer-devel).
+This is a Database that will help you install a few extra palettes for your Game Boy core in [MiSTer FPGA](https://github.com/MiSTer-devel).
 
-### How to install
+### How to Install
 
 Add an entry to the `downloader.ini` file on the root of your SD (create it if it doesn't exist), to use it with the [MiSTer Downloader](https://github.com/MiSTer-devel/Downloader_MiSTer/) (which is what Update All calls under the hood). For that, please add the following entry there:
 
@@ -12,4 +12,4 @@ Add an entry to the `downloader.ini` file on the root of your SD (create it if i
 db_url = https://raw.githubusercontent.com/ZReport/gameboy-palettes/db/db.json.zip
 ```
 
-Once you've done this, next time you run downloader, the palettes will get installed too.
+Once you've done this, the palettes will be installed upon running the downloader again.
