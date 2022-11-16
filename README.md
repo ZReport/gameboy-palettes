@@ -9,7 +9,7 @@ Add an entry to the `downloader.ini` file on the root of your SD (create it if i
 
 ```
 [ZReport/gameboy-palettes]
-db_url = https://raw.githubusercontent.com/ZReport/gameboy-palettes/db/bios_db.json
+db_url = https://raw.githubusercontent.com/ZReport/gameboy-palettes/db/db.json.zip
 ```
 
 Once you've done this, next time you run downloader, the palettes will get installed too.
